@@ -8,8 +8,9 @@ static const Block blocks[] = {
 	{"",	    "bar-vpn",      0,	                6               },
 	{"",	    "bar-mem",      5,	                5               },
 	{"",	    "bar-cpu",      5,	                4               },
-	{"",	    "bar-battery",  180,	            3               },
+/*	{"",	    "bar-battery",  180,	            3               },*/
 	{"",	    "bar-weather",	600,	            2               },
+	{"",	    "bar-lang",     0,	                3               },
 	{"",	    "bar-clock",	60,	               1               },
 };
 
