@@ -3,6 +3,7 @@
 #include<string.h>
 #include<unistd.h>
 #include<signal.h>
+#include <time.h>
 #include<X11/Xlib.h>
 #define LENGTH(X)               (sizeof(X) / sizeof (X[0]))
 #define CMDLENGTH		50
@@ -63,6 +64,8 @@ void remove_all(char *str, char to_remove) {
 //opens process *cmd and stores output in *output
 void getcmd(const Block *block, char *output)
 {
+    nanosleep((const struct timespec[]){{0, 50000000L}}, NULL);
+
 	if (block->signal)
 	{
 		output[0] = block->signal;
