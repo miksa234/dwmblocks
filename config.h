@@ -6,11 +6,12 @@ static const Block blocks[] = {
 	{"",	    "bar-bluetooth",5,  	            9               },
 	{"",	    "bar-volume",   0,	                8               },
 	{"",	    "bar-internet", 5,	                7               },
-	{"",	    "bar-vpn",      10,	                6               },
 	{"",	    "bar-battery",  180,	            3               },
 	{"",	    "bar-mem",      5,	                5               },
 	{"",	    "bar-cpu",      5,	                4               },
-	{"",	    "bar-clock",	60,	               1                },
+	{"",	    "bar-vpn",      0,	                6               },
+	{"",	    "bar-vpn-clock",1,	                12               },
+	{"",	    "bar-clock",	1,	                1               },
 	/*{"",	    "bar-weather",	600,	            2               },*/
 };
 
