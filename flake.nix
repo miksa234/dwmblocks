@@ -20,7 +20,7 @@
 
         # Libraries + headers
         buildInputs = with pkgs; [
-          libX11
+          libx11
         ];
       };
     };
